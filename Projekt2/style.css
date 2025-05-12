@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    position: absolute;
+    right: 32px;
+    left: 32px;
+    top: 16px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    margin-top: 16px;
+  }
+
+  .link:hover {
+    color: rgb(0, 195, 255);
+    text-decoration: underline;
+  }
+
+
+  .menu-link {
+    color: white;
+    text-decoration: none;
+    margin: 16px;
+  }
+  
+  .menu-link:hover {
+    color: rgb(0, 195, 255);
+    text-decoration: underline;
+  }
+
+  .header-image {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+  }
+ 
+
+  .logo {
+    height: 250px;
+    width: 250px;
+  }
+
+  .headline {
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-shadow: 5px 5px 15px rgba(255, 0, 0, 0.4);
+  }
+
+  .headline_serverantwort {
+    position: absolute;
+    left: 50px;
+    top: 450px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 5px 5px 15px rgba(255, 0, 0, 0.4);
+  }
+
+  .farbe {
+    color: yellow;
+  
+  }
+  .farbe2 {
+    color: yellow;
+    font-size: 100px;
+  }
+  
+  .timeline{
+    position: absolute;
+    left: 50px;
+    top: 650px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+  }
+  
+  .button {
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 30px;
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.4);
+  }
+
+  .inputelements {
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 30px;
+    color: black;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 15px rgba(245, 229, 4, 0.4);
+
+  }
+
+  .login {
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 5px 5px 15px rgba(255, 0, 0, 0.4);
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}
+
+.popup{
+  color: red;
+ display: none;
+}
+
